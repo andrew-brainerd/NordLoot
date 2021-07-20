@@ -1,0 +1,8 @@
+## Interface: 20501
+## Title: NordLoot
+## Notes: <Tentative> Loot Helper
+## Author: andrew-brainerd
+## Version: 1.0
+
+embeds.xml
+NordLoot.lua
