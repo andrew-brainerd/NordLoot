@@ -10,7 +10,7 @@ NordLoot:RegisterEvent("LOOT_OPENED", function(text)
             local link = GetLootSlotLink(i)
             if IsInRaid() then
                 if link then
-                    local item = tonumber(link:match("item:(%d+)"));
+                    local item = tonumber(link:match("item:(%d+)"))
                     if item then
                         itemName, itemLink, itemRarity = GetItemInfo(link)
 
@@ -19,8 +19,6 @@ NordLoot:RegisterEvent("LOOT_OPENED", function(text)
                         end
                     end
                 end
-            else
-                NordLoot:Print("You are not in a raid")
             end
         end
     end
